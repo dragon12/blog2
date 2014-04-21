@@ -3,6 +3,10 @@ source 'https://rubygems.org'
 #gem 'execjs'
 #gem 'therubyracer'
 
+group :development do
+  gem 'webrick', '~> 1.3.1'
+end
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
 

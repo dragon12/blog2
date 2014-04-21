@@ -1,6 +1,8 @@
 Blog2::Application.routes.draw do
  
-  resources :posts
+resources :posts do
+  resources :comments
+end
  
   root to: "welcome#index"
 end
