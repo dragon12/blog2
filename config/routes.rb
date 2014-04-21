@@ -4,5 +4,5 @@ resources :posts do
   resources :comments
 end
  
-  root to: "welcome#index"
+  root to: "posts#index"
 end
